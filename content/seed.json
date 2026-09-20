@@ -1,0 +1,250 @@
+{
+  "documents": [
+    {
+      "kind": "blueprint",
+      "slug": "blueprint",
+      "title": "Resolve UK Blueprint",
+      "summary": "The plan for the next stage: how a report gets from someone's phone to a confirmed fix, what gets built and in what order, and the questions that need your help.",
+      "file": "blueprint.md",
+      "pinned": true,
+      "status": "published",
+      "published_at": "2026-09-19T12:00:00Z"
+    },
+    {
+      "kind": "weekly",
+      "slug": "week-1",
+      "title": "Week 1 Report",
+      "summary": "What was built in the first week, what comes next, and the questions that were asked.",
+      "file": "week-1.md",
+      "pinned": false,
+      "period_start": "2026-09-15",
+      "period_end": "2026-09-19",
+      "status": "published",
+      "published_at": "2026-09-18T12:00:00Z"
+    },
+    {
+      "kind": "weekly",
+      "slug": "week-2",
+      "title": "Week 2 Report",
+      "summary": "The plan, your feedback and the decisions it led to, the prototype's new design, and what's waiting on you.",
+      "file": "week-2.md",
+      "pinned": false,
+      "period_start": "2026-09-19",
+      "period_end": "2026-09-25",
+      "status": "draft"
+    }
+  ],
+  "questions": [
+    {
+      "document": "blueprint",
+      "key": "q1",
+      "position": 1,
+      "status": "closed",
+      "prompt": "Who will check the dashboard at the start, and who marks a report as cleared: your team or the council's staff?",
+      "why": "This tells me who needs a login.",
+      "note": "Answered by email on 20 September: each council sees only its own area, a Resolve view sees everything, and councils can acknowledge, schedule and clear but not verify."
+    },
+    {
+      "document": "blueprint",
+      "key": "q2",
+      "position": 2,
+      "status": "closed",
+      "prompt": "How do you plan to approach a council, and do you have a contact or a way in?",
+      "why": "Reports only get fixed if a council takes part.",
+      "note": "Answered by email on 20 September: councils and contractors will be approached once there's a prototype that looks good and works, and you can usually get a meeting."
+    },
+    {
+      "document": "blueprint",
+      "key": "q3",
+      "position": 3,
+      "status": "open",
+      "prompt": "What is the plan for testing Resolve UK?",
+      "why": "This helps me decide where to start."
+    },
+    {
+      "document": "blueprint",
+      "key": "q4",
+      "position": 4,
+      "status": "open",
+      "prompt": "Should a report count as verified after 5 people agree, each with a photo, and who should check each photo: the AI, a Resolve reviewer, or both?",
+      "why": "This sets how much checking falls on your team, and what \"verified\" means in the figures."
+    },
+    {
+      "document": "blueprint",
+      "key": "q5",
+      "position": 5,
+      "status": "open",
+      "prompt": "If someone disagrees and sends a photo, should a Resolve reviewer check it and send the report back to the council if it's right?",
+      "why": "Some people disagree just to be difficult, so a single complaint shouldn't reopen a fix."
+    },
+    {
+      "document": "blueprint",
+      "key": "q6",
+      "position": 6,
+      "status": "open",
+      "prompt": "In a remote area where 5 residents may never reply, should a Resolve reviewer be able to verify a fix from one clear photo?",
+      "why": "Otherwise a fix in a quiet area could stay unverified forever."
+    },
+    {
+      "document": "blueprint",
+      "key": "q7",
+      "position": 7,
+      "status": "open",
+      "prompt": "Colchester has two levels of council, so a report there may need routing to two places. Are you happy to start there, or should Huddersfield go first?",
+      "why": "Two levels means two routes to set up, which is a little more work. The plan already allows for it, and I still need to check who covers what."
+    }
+  ],
+  "decisions": [
+    {
+      "title": "Where the data is hosted",
+      "status": "decided",
+      "outcome": "In the UK (London). The data moves before any real reports come in.",
+      "detail": "The prototype's test data is in Seoul for now.",
+      "decided_on": "2026-09-20",
+      "position": 1
+    },
+    {
+      "title": "What each council can see",
+      "status": "decided",
+      "outcome": "Each council sees only the reports for its own area. A Resolve view sees everything.",
+      "detail": "For example, London cannot see Manchester's reports.",
+      "decided_on": "2026-09-20",
+      "position": 2
+    },
+    {
+      "title": "What councils can do, and what they can't",
+      "status": "decided",
+      "outcome": "Councils can acknowledge, schedule and clear. They cannot verify. Resolve reviewers can verify and see the data, but cannot change what a council has done.",
+      "decided_on": "2026-09-20",
+      "position": 3
+    },
+    {
+      "title": "What the pilot is",
+      "status": "decided",
+      "outcome": "The routing and checking stage is the pilot stage.",
+      "decided_on": "2026-09-20",
+      "position": 4
+    },
+    {
+      "title": "What the time measure counts",
+      "status": "decided",
+      "outcome": "Days until the council marks a report cleared, not until it's verified, so councils in remote areas aren't penalised when a problem was dealt with quickly.",
+      "decided_on": "2026-09-20",
+      "position": 5
+    },
+    {
+      "title": "When councils and contractors are approached",
+      "status": "decided",
+      "outcome": "Once there's a prototype that looks good and works. Ms Kay arranges the meetings.",
+      "decided_on": "2026-09-20",
+      "position": 6
+    },
+    {
+      "title": "How many confirmations before a report counts as verified",
+      "status": "open",
+      "detail": "Ms Kay suggested 5. To confirm: 5 agreements, each with a photo?",
+      "needed_by": "Before the pilot stage is built",
+      "position": 7
+    },
+    {
+      "title": "Who checks each public photo",
+      "status": "open",
+      "detail": "The AI, a Resolve reviewer, or both.",
+      "needed_by": "Before the pilot stage is built",
+      "position": 8
+    },
+    {
+      "title": "What happens when someone disagrees with a photo",
+      "status": "open",
+      "detail": "Proposed: a Resolve reviewer checks it and sends the report back to the council if it's right. Disagreeing without a photo does nothing.",
+      "needed_by": "Before the pilot stage is built",
+      "position": 9
+    },
+    {
+      "title": "Remote areas where 5 residents may never reply",
+      "status": "open",
+      "detail": "Proposed: a Resolve reviewer can verify from one clear photo.",
+      "needed_by": "Before the pilot stage is built",
+      "position": 10
+    },
+    {
+      "title": "Where the pilot starts",
+      "status": "open",
+      "detail": "Huddersfield (one council) or Colchester (two levels of council, and Ms Kay's home town). It depends on a council agreeing, which is outside Ms Kay's control.",
+      "needed_by": "Before the pilot stage is built",
+      "position": 11
+    },
+    {
+      "title": "Whether photos appear publicly straight away, or are checked first",
+      "status": "open",
+      "detail": "Photos can show faces and number plates.",
+      "needed_by": "Before the community stage",
+      "position": 12
+    },
+    {
+      "title": "Whether people who report need an account, or can stay anonymous",
+      "status": "open",
+      "needed_by": "Before the community stage",
+      "position": 13
+    },
+    {
+      "title": "How long reports and photos are kept",
+      "status": "open",
+      "detail": "Needs UK data protection advice.",
+      "needed_by": "Before real reports come in",
+      "position": 14
+    },
+    {
+      "title": "Which project comes first when time is short",
+      "status": "open",
+      "detail": "It sets the real timeline for Resolve UK.",
+      "needed_by": "When timings are agreed",
+      "position": 15
+    }
+  ],
+  "updates": [
+    {
+      "title": "First working prototype",
+      "summary": "Report a problem with a photo, a category and a location, and see it in a list. It installs on a phone like an app.",
+      "details_md": "You can now:\n\n- Open the prototype on a phone and add it to the home screen.\n- Report a problem: pick a type, describe it, add a photo, and mark the location using the phone or a map pin.\n- See every report in a list with its photo and status.\n\nEvery report shows \"Reported\" for now, because no council is connected yet.",
+      "released_on": "2026-09-18",
+      "version": "v0.1",
+      "status": "published"
+    },
+    {
+      "title": "Cleaner design and branding",
+      "summary": "A more modern look with light and dark modes, the Resolve logo and app icons, and a map that works from anywhere.",
+      "details_md": "What changed:\n\n- A cleaner layout with a simpler form, clearer buttons and a dropdown that looks the same on every device.\n- Light and dark modes that follow the phone's setting.\n- The Resolve logo in the header, and proper app icons for the home screen.\n- The map opens on a world view, so it works wherever someone is.",
+      "released_on": "2026-09-19",
+      "version": "v0.2",
+      "status": "published"
+    },
+    {
+      "title": "Blueprint, first version",
+      "summary": "The plan for the next stage, with the questions that needed your help.",
+      "details_md": "Covers how a report moves from a phone to a confirmed fix, what gets built and in what order, rough timings, and your questions answered.",
+      "released_on": "2026-09-19",
+      "status": "published"
+    },
+    {
+      "title": "Blueprint updated with your answers",
+      "summary": "Your decisions from 20 September are now in the plan.",
+      "details_md": "What changed:\n\n- **Hosting.** UK hosting is decided.\n- **Who can do what.** Councils see only their own area and can acknowledge, schedule and clear, but not verify. A Resolve view sees everything and can verify without changing what a council did.\n- **How a fix is checked.** The public is shown that a report is cleared and asked whether they agree, with a photo. Disagreeing without a photo doesn't send it back. Five confirmations is the draft rule.\n- **The pilot.** Routing and checking fixes is now called out as the pilot stage.\n- **Measuring councils.** The measure stops at \"cleared\", not \"verified\".\n- **The AI step.** The diagram now says it is the AI being confident in its suggestion.\n- **Decisions.** The decisions that can wait now have their own page, so they aren't forgotten.",
+      "released_on": "2026-09-20",
+      "status": "published"
+    },
+    {
+      "title": "Private portal",
+      "summary": "One private place for the Blueprint, progress, weekly reports, questions and decisions, with a sign-in for you and one for me.",
+      "details_md": "Your answers are saved to your account, so you can see them from any of your devices and go back to check earlier ones. Replies from me appear underneath.",
+      "released_on": "2026-09-20",
+      "status": "draft"
+    }
+  ],
+  "settings": {
+    "prototype_url": "https://resolve-uk-ten.vercel.app/",
+    "prototype_version": "v0.2",
+    "prototype_note": "Cleaner design, light and dark modes, the Resolve logo and app icons.",
+    "prototype_updated": "2026-09-19"
+  }
+}

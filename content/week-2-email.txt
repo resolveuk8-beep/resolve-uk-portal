@@ -1,0 +1,26 @@
+Subject: Resolve UK: Week 2 report and your private page
+
+Hello Ms Kay,
+
+This week's report is ready, and there is one change to how you see everything.
+
+I have moved the Blueprint, the reports, the questions and the progress into one private page that only you and I can open. Your answers are saved to your login, so you will see them on any device, and you can change an answer by clicking the pen next to it.
+
+Open it here: [LINK]
+Sign in with: [HER EMAIL]
+I will send your password separately. Once you are in, please change it (your name at the top right, then Change password).
+
+What is on it:
+- Blueprint: the plan, with your decisions from last week already in it.
+- Progress: the live prototype, and a list of each big update as it is finished. The prototype's link always opens the newest version.
+- Weekly reports: this one is Week 2.
+- Questions: what I still need your help with. There are [N] waiting.
+- Decisions: what has been settled, and what is still open.
+
+Where things are this week:
+[One or two sentences: the plan is written and updated, the prototype has a cleaner design, and the next step is the Foundation stage once the verification rule is confirmed.]
+
+If it is easier to reply here by email, that is fine. I will copy your words onto the page for you.
+
+Thank you,
+Ivhel
